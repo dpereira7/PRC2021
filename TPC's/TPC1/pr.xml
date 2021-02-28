@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>Dataset,TTL</key>
+        <title>Resolução do TPC 1</title>
+        <bdate>Fevereiro 2021</bdate>
+        <edate>Fevereiro 2021</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84092">
+            <name>Diogo Paulo da Costa Pereira</name>
+            <email>a84092@uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Geração de um ficheiro TTL convertido de JSON, a partir de um dataset gerado num website(<link url ="https://next.json-generator.com/">Gerador de JSON</link>).</p>
+    </abstract>
+    <deliverables>
+        <link url="final.ttl">Ficheiro TTL gerado</link>
+        <link url="converter.py">Conversor criado</link>
+        <link url="db.json">Dataset gerado</link>
+        <link url="pr.xml">pr.xml</link>
+    </deliverables>
+</pr>
