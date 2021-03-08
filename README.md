@@ -4,3 +4,4 @@
 ## TPCs
 
 * [TPC 1](https://github.com/dpereira7/PRC2021/tree/main/TPC's/TPC1)
+* [TPC 2](https://github.com/dpereira7/PRC2021/tree/main/TPC's/TPC2)
