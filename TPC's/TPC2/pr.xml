@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TTL,XSLT</key>
+        <title>Resolução do TPC 2</title>
+        <bdate>Março 2021</bdate>
+        <edate>Março 2021</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84092">
+            <name>Diogo Paulo da Costa Pereira</name>
+            <email>a84092@uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Geração de um ficheiro TTL convertido a partir de um ficheiro XML, utilizando um ficheiro XSLT para a conversão, que por fim é concatenado ao ficheiro base da Ontologia.</p>
+    </abstract>
+    <deliverables>
+        <link url="amd-final.ttl">Ficheiro final TTL</link>
+        <link url="amd-base.ttl">Ficheiro base da Ontologia</link>
+        <link url="amd.ttl">Ficheiro convertido do XML</link>
+        <link url="xml2ttl.xsl">Conversor XSLT criado</link>        
+        <link url="arquivo-musica-digital.xml">Dataset</link>
+        <link url="pr.xml">pr.xml</link>
+    </deliverables>
+</pr>
