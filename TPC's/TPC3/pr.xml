@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>WebApp, GraphDB</key>
+        <title>Resolução do TPC 3</title>
+        <bdate>Março 2021</bdate>
+        <edate>Março 2021</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84092">
+            <name>Diogo Paulo da Costa Pereira</name>
+            <email>a84092@uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Geração de um Front-End Web para apresentar a informação presente na base de dados <b>GraphDB</b>.</p>
+        <p>É apresentada uma lista de repositórios criados no <b>GraphDB</b> na página inicial, carregando num repositório abre uma página relativamente ao repositório, que apresenta as classes presentes nesse repositório. Clicando agora numa classse também volta a abrir uma página, mas neste caso relativamente a uma classe, em que apresenta os indivíduos presentes nessa classe. E por fim clicando num indivíduo, abre uma página de indivíduo, com as suas propriedade.</p>
+    </abstract>
+    <deliverables>
+        <link url="../webApp/routes/index.js">Rotas criadas</link>
+        <link url="../webApp/views/index.pug">Página inicial</link>
+        <link url="../webApp/views/repositorio.pug">Página de um repositório</link>
+        <link url="../webApp/views/classe.pug">Página de uma classe</link>
+        <link url="../webApp/views/individuo.pug">Página de um indivíduo</link>                        
+        <link url="pr.xml">pr.xml</link>
+    </deliverables>
+</pr>
