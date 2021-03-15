@@ -3,23 +3,23 @@ extends layout
 block content
     .w3-card-4
         header.w3-container.w3-teal
-            h3.w3-center= Indivíduo : #{individuo}   
-            .w3-container
-                    header.w3-container.w3-teal.w3-margin-top
-                        h4 Propriedades do Indivíduo
-                    table(class="w3-table-all")
+            h3.w3-center Indivíduo : #{individuo}   
+        .w3-container
+                header.w3-container.w3-teal.w3-margin-top
+                    h4.w3-center Propriedades do Indivíduo
+                table(class="w3-table-all")
+                    tr
+                        th Sujeito 
+                        th Predicado
+                        th Objeto
+                    each p in propriedades
                         tr
-                            th Sujeito 
-                            th Predicado
-                            th Objeto
-                        each p in propriedades
-                            tr
-                                td= individuo
-                                if (p.p == "type")
-                                    td rdf:#{p.p}
-                                else
-                                    td= prefixo + p.p
-                                td= p.o
+                            td= individuo
+                            if (p.p == "type")
+                                td rdf:#{p.p}
+                            else
+                                td= prefixo + p.p
+                            td= p.o
         footer(class="w3-container w3-teal")
             adress.w3-right Diogo Pereira
             a(href="javascript:history.back()") Voltar
