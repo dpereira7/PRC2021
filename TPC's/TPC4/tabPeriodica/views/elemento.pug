@@ -1,0 +1,42 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-cyan
+            h3.w3-center Tabela Periódica
+        .w3-container
+                header.w3-container.w3-light-blue.w3-margin-top
+                    h4.w3-center #{id}
+                table(class="w3-table-all")
+                    tr 
+                        th.w3-pale-blue.w3-center Símbolo
+                        th.w3-pale-blue.w3-center Nome
+                        th.w3-pale-blue.w3-center Número Atómico
+                        th.w3-pale-blue.w3-center Peso Atómico
+                        th.w3-pale-blue.w3-center Bloco
+                        th.w3-pale-blue.w3-center Grupo
+                        th.w3-pale-blue.w3-center Período
+                        th.w3-pale-blue.w3-center CAS
+                        th.w3-pale-blue.w3-center Cor
+                        th.w3-pale-blue.w3-center Classificação
+                        th.w3-pale-blue.w3-center Estado Inicial               
+                    each e in elemento
+                        tr
+                            td.w3-center= e.symbol
+                            td.w3-center= e.name
+                            td.w3-center= e.anumber
+                            td.w3-center= e.aweight
+                            td.w3-center= e.block
+                            td.w3-center
+                                a(href=prefixo + "grupos/" + e.group)= e.group
+                            td.w3-center
+                                a(href=prefixo + "periodos/" + e.period)= e.period
+                            td.w3-center= e.casregid
+                            td.w3-center= e.color
+                            td.w3-center= e.classi
+                            td.w3-center= e.stastate 
+        footer(class="w3-container w3-cyan")
+            adress.w3-right Diogo Pereira
+            a(href="javascript:history.back()") Voltar
+            adreess /
+            a(href="/") Home

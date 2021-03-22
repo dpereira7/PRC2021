@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>WebApp, SPARQL</key>
+        <title>Resolução do TPC 4</title>
+        <bdate>Março 2021</bdate>
+        <edate>Março 2021</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84092">
+            <name>Diogo Paulo da Costa Pereira</name>
+            <email>a84092@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Geração de um Front-End Web para apresentar a informação presente no dataset relativo à <b>Tabela periódica</b>.</p>
+        <p>É apresentada ummenu inicial com uma lista que apresenta os Elementos, Grupos e Períodos, carregando numa das palavras anteriores, abre uma página com os repetivos Elementos/Grupos/Períodos, após entrar numa dessas 3 páginas se carregar num dos seguintes constituintes de uma das 3 páginas Elemento/Grupo/Período, abre uma página relativa a esse constituinte, com alguma informação.</p>
+    </abstract>
+    <deliverables>
+        <link url="../tabPeriodica/routes/index.js">Rotas criadas</link>
+        <link url="../tabPeriodica/views/index.pug">Página inicial</link>
+        <link url="../tabPeriodica/views/grupos.pug">Página dos grupos</link>
+        <link url="../tabPeriodica/views/periodos.pug">Página dos períodos</link>
+        <link url="../tabPeriodica/views/elementos.pug">Página dos elementos</link>                        
+        <link url="../tabPeriodica/views/grupo.pug">Página de um grupo</link>
+        <link url="../tabPeriodica/views/periodo.pug">Página de uma período</link>
+        <link url="../tabPeriodica/views/elemento.pug">Página de um elemento</link>
+        <link url="Periodic_Table.rdf">Dataset</link>
+        <link url="pr.xml">pr.xml</link>
+    </deliverables>
+</pr>
