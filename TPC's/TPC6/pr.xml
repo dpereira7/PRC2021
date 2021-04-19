@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>Vue.js</key>
+        <title>Resolução do TPC 6</title>
+        <bdate>Abril 2021</bdate>
+        <edate>Abril 2021</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84092">
+            <name>Diogo Paulo da Costa Pereira</name>
+            <email>a84092@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Criação de uma aplicação Web para consumir a API de dados sobre o dataset das Publicações do Professor JCR. </p>
+    </abstract>
+    <deliverables>
+        <link url="../api-serverTPC5/routes/index.js">Rotas criadas para a API de dados</link>
+		<link url="../app-pubs/src/router/index.js">Rotas da Aplicação WEB desenvolvida</link>
+        <link url="jcrpubs-inf.ttl">Ontologia Inferida</link>
+        <link url="pr.xml">pr.xml</link>
+    </deliverables>
+</pr>
