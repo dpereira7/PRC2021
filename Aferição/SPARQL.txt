@@ -1,0 +1,15 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <https://www.di.uminho.pt/prc2021/condominios#>
+
+
+1. SELECT ?s WHERE { ?s a :Receita}
+   SELECT ?s WHERE { ?s a :Despesa}
+
+2.
+
+3.
+
+4.
+
+5.
