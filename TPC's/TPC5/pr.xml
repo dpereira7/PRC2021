@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>JCRPubs</key>
+        <title>Resolução do TPC 5</title>
+        <bdate>Março 2021</bdate>
+        <edate>Março 2021</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84092">
+            <name>Diogo Paulo da Costa Pereira</name>
+            <email>a84092@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Criação de uma API de dados sobre um dataset que posteriormente foi analisado para construir uma ontologia relativa ao mesmo, em que o ficheiro dessa ontologia é carregado no Ontobud no repositório criado para o objetivo pretendido. </p>
+    </abstract>
+    <deliverables>
+        <link url="../api-serverTPC5/routes/index.js">Rotas criadas</link>
+        <link url="jcrpubs-inf.ttl">Ontologia Inferida</link>
+        <link url="pr.xml">pr.xml</link>
+    </deliverables>
+</pr>
