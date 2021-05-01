@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>Vue.js</key>
+        <title>Resolução do TPC 7</title>
+        <bdate>Abril 2021</bdate>
+        <edate>Maio 2021</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84092">
+            <name>Diogo Paulo da Costa Pereira</name>
+            <email>a84092@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Criação e povoamento de uma ontologia baseada num dataset fornecido que incide sobre as cidades de Portugal e as suas ligações.</p>
+        <p>Para a criar a parte estrutural da ontologia foi utilizado o <b>Protégé</b>, após isso foi desenvolvido um script em <b>Python</b> para povoar a ontologia.</p>
+    </abstract>
+    <deliverables>
+        <link url="populate.py">Script para povoar a ontologia</link>
+        <link url="jcrpubs-inf.ttl">Ontologia Base</link>
+        <link url="jcrpubs-inf.ttl">Ontologia Final</link>
+        <link url="cidades.json">Dataset</link>
+        <link url="pr.xml">pr.xml</link>
+    </deliverables>
+</pr>

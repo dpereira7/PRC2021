@@ -1,0 +1,61 @@
+@prefix : <http://www.di.uminho.pt/prc2021/cidades#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/cidades> .
+
+<http://www.di.uminho.pt/prc2021/cidades> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/cidades#destino
+:destino rdf:type owl:ObjectProperty ;
+         rdfs:domain :ligação ;
+         rdfs:range :cidade .
+
+
+###  http://www.di.uminho.pt/prc2021/cidades#origem
+:origem rdf:type owl:ObjectProperty ;
+        rdfs:domain :ligação ;
+        rdfs:range :cidade .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/cidades#descrição
+:descrição rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/cidades#distrito
+:distrito rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/cidades#distância
+:distância rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/cidades#nome
+:nome rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/cidades#população
+:população rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/cidades#cidade
+:cidade rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/cidades#ligação
+:ligação rdf:type owl:Class .
+
