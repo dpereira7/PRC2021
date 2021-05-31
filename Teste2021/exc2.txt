@@ -1,0 +1,41 @@
+1-
+CONSTRUCT {
+    ?s :temIrmao ?s1 .
+}WHERE {
+    ?s :temPais ?p1 .
+    ?s1 :temPais ?p1 .
+    FILTER ( ?s != ?s1 )
+}
+
+
+4-
+CONSTRUCT {
+    ?s :temPrimo ?s1 .
+} WHERE {
+    ?s :temPais ?p_s . 
+    ?p_s :temPais ?p_p_s .
+    ?p_p_s :ePaiDe ?p_s1 .
+    ?p_s1 :ePaiDe ?s1 .
+    FILTER(  )
+}
+
+2-
+CONSTRUCT {
+    ?bisneto :temBisAvo ?bisavo .
+} WHERE {
+    ?bisneto :temPais ?p_bisneto .
+    ?p_bisneto :ePaiDe ?bisavo .
+    FILTER( ?bisneto != ?bisavo &&
+        ?bisneto != ?p_bisneto &&
+        ?p_bisneto != ?bisavo)
+}
+
+
+5-
+CONSTRUCT {
+    ?mae :sexo "F" . 
+    ?pai :sexo "M" .
+} WHERE {
+    ?s1 :temMae ?mae .
+    ?s2 :temPai ?pai .
+}

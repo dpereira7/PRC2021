@@ -1,0 +1,43 @@
+1-3-a)
+SELECT (COUNT(?emd) AS ?total) WHERE { 
+                ?emd a :EMD.
+}
+
+
+b)
+SELECT (COUNT(?emd) AS ?total) WHERE { 
+                ?emd a :EMD.
+                ?emd :resultado "True".
+            }
+
+
+c)
+SELECT ?genero (COUNT(?emd) AS ?emds_total) WHERE { 
+                ?atleta :realizouEMD ?emd .
+                ?atleta :genero ?genero .
+} GROUP BY ?genero
+
+
+d)
+SELECT ?modalidade (COUNT(?emd) AS ?emds_total) WHERE { 
+                ?atleta :realizouEMD ?emd .
+                ?atleta :pratica ?modalidade .
+} GROUP BY ?modalidade
+
+
+e)
+select ?s  (COUNT(?emd) AS ?total) where {
+    ?atleta :realizouEMD ?emd.
+	?atleta :pratica ?s.
+    ?atleta :federado "True".
+	?atleta :pertence :GDGoma.
+}GROUP BY ?s
+
+
+f)
+select ?s  (COUNT(?emd) AS ?total) where {
+    ?atleta :realizouEMD ?emd.
+	?atleta :pratica :Triatlo.
+    ?atleta :genero "F".
+}GROUP BY ?s
+
