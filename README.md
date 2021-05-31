@@ -9,3 +9,4 @@
 * [TPC 4](https://github.com/dpereira7/PRC2021/tree/main/TPC's/TPC4)
 * [TPC 5](https://github.com/dpereira7/PRC2021/tree/main/TPC's/TPC5)
 * [TPC 6](https://github.com/dpereira7/PRC2021/tree/main/TPC's/TPC6)
+* [TPC 7](https://github.com/dpereira7/PRC2021/tree/main/TPC's/TPC7)
